@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    background: url(./image/bg-pattern-top-mobile.svg) no-repeat, url(./image/bg-pattern-bottom-mobile.svg) bottom no-repeat;
+}
+
+main{
+    margin: 2rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(300, 43%, 22%);
+}
+
+.first-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first-block h1 {
+    padding: 3rem 2rem 0 2rem;
+    color: hsl(300, 43%, 22%);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.first-block p {
+    font-size: 0.8rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+}
+
+.stars-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.stars-box h2 {
+    font-size: 0.8rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.stars {
+    background: hsl(300, 24%, 96%); 
+    margin: 0 0 1rem 0;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.stars img {
+    padding: 0 0.2rem 0.5rem 0.2rem;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.comments {
+    background: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin: 0 0 1rem 0;
+    padding: 1rem 0;
+    border-radius: 10px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0 0 1.5rem;
+}
+
+.perfil h2 {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.perfil p {
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: hsl(333, 80%, 67%);
+}
+
+.perfil-description {
+    padding: 0 0 0 1rem;
+}
+
+.perfil img {
+    border-radius: 50px;
+    width: 3rem;
+}
+
+.quote p{
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 1rem 1.8rem 1rem 1.5rem;
+    line-height: 1.3rem;
+}
+
+.attribution {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1280px) {
+    body {
+    background: url(./image/bg-pattern-top-desktop.svg) no-repeat, url(./image/bg-pattern-bottom-desktop.svg) bottom right no-repeat;
+    }
+
+    .first-block {
+        flex-direction: row;
+        width: 100%;
+        text-align: left;
+        margin-top: 6rem;
+    }
+
+    .first-block h1 {
+        font-size: 3rem;
+        padding: 0 11rem 0 0;
+    }
+
+    .first-block p {
+        font-size: 1rem;
+        padding: 1rem 6rem 0 0;
+        line-height: 1.5rem;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 1rem;
+    }
+
+    .stars-box {
+        width: 40%;
+        margin: 2.5rem 0 0 0;
+    }
+
+    .stars {
+       display: flex;
+       flex-direction: row;
+       padding-left: 2rem;
+    }
+
+    .stars img {
+        padding: 0.2rem;
+    }
+
+    .stars h2 {
+        font-size: 1rem;
+        padding: 0.2rem 0 0 2rem;
+    }
+
+    .star-2{
+        position: relative;
+        left: 40px;
+    }
+
+    .star-3 {
+        position: relative;
+        left: 80px;
+    }
+
+    .second-block {
+        flex-direction: row;
+        margin-top: 3rem;
+    }
+
+    .comments {
+        margin: 1.5rem;
+        padding: 1rem;
+    }
+
+    .perfil {
+        padding-bottom: 1rem;
+    }
+
+    .perfil p {
+        padding: 0.2rem 0 0 0;
+    }
+
+    .quote p {
+        font-size: 0.9rem;
+        line-height: 1.7rem;
+        padding: 1rem;
+    }
+
+    .comments-2 {
+        position: relative;
+        top: 20px;
+    }
+
+    .comments-3 {
+        position: relative;
+        top: 40px;
+    }
+
+    .attribution {
+        margin: 3rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .first-block h1 {
+        font-size: 3rem;
+        margin-top: 14px;
+        padding: 0 14rem 0 0;
+    }
+
+    .first-block p {
+        padding: 1rem 11rem 0 0;
+    }
+
+    .stars h2 {
+        font-size: 1.1rem;
+    }
+
+    .perfil h2 {
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    .perfil p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .first-block h1 {
+        font-size: 5rem;
+        padding: 0 9rem 0 0;
+    }
+
+    .first-block p {
+        font-size: 1.6rem;
+        padding: 1rem 6rem 0 0;
+        line-height: 2rem;
+    }
+
+    li {
+        padding: 0.5rem;
+    }
+
+    .stars img {
+        width: 140%;       
+    }
+
+    .stars h2 {
+        font-size: 1.5rem;
+        padding: 1rem 0 0 2rem;
+    }
+
+    .perfil {
+        padding-left: 2rem ;
+    }
+
+    .perfil img {
+        width: 4rem;
+    }
+
+    .perfil h2 {
+        font-size: 1.5rem
+    }
+
+    .perfil p {
+        font-size: 1.2rem;
+    }
+
+    .quote p {
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+        padding: 2rem;
+    }
+
+    .attribution {
+        font-size: 1.5rem;
+    }
+}
+
+    
+
+    
+
+    
