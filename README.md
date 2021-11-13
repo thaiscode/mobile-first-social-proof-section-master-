@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/social-proof-section-solution-using-mobile-first-A6awZWuu-
 - Live Site URL: https://thaiscode.github.io/mobile-first-social-proof-section-master-/
 
 ## My process
